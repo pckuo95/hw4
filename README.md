@@ -8,7 +8,7 @@ first use encoder to count how further the car went(d2), then it turn 90 degree,
 
 2.Line detect
 it use OpenMV to detect line segment.
-linefinish.py: contorl OpenMV when a signal from mbed via uart, it return the coordinates of line to mbed via uart 'one time'.
+linefinish.py: contorl OpenMV when a signal send from mbed via uart. it return the coordinates of line to mbed via uart 'one time'.
 
 main.cpp:
 it use counter to count timeout or read data. if time out, recall openMV to send Data again. 
